@@ -59,7 +59,7 @@ const HERO_SLIDES = [
 
 
 const MEMORIES = [
-  { img: "/memories/1.jpeg", caption: "Tech fest street break — coding + ice creams 🍦" },
+  { img: "/memories/1.jpeg", caption: "Tech fest street break🍦" },
 
   { img: "/memories/2.jpeg", caption: "DBMS class chaos before submission 😂" },
 
@@ -489,20 +489,7 @@ export default function App() {
   </div>
 ))}
   </div>
-
-  <p style={{ fontSize: 10, letterSpacing: 3, color: "#DAA520", textTransform: "uppercase", fontWeight: 700, marginBottom: 20 }}>
-    Achievements
-  </p>
-  <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
-    {[
-      "🥉 3rd position — Ideaforge2k24, NSS KIIT",
-      "🎓 KIITEE Merit Scholarship — AIR 571 (2023)",
-      "🏅 Rank 1 / 100+ in KodeWreck recruitment contest",
-      "📣 Organized Game of Codes 2.0 — 200% more participants",
-      "⚡ 300+ LeetCode problems solved",
-      "🏆 Winner — Ignithon (Intermediate Category), K-1000",
-      "💡 20+ projects built across web, data, and AI domains",
-      "🥈 Rank 2 / 200+ — Encode 3.0 · Won ₹2500",
+ 
 
 
     ].map((a, i) => (
